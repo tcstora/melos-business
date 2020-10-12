@@ -1,0 +1,600 @@
+/*
+Theme Name: Melos Business
+Theme URI: https://www.thinkupthemes.com/free/melos/
+Author: Think Up Themes
+Author URI: https://www.thinkupthemes.com
+Description: Melos Business is the free version of the multi-purpose professional theme (Melos Pro) ideal for a business or blog website. The theme has a responsive layout, HD retina ready and comes with a powerful theme options panel with can be used to make awesome changes without touching any code. The theme also comes with a full width easy to use slider. Easily add a logo to your site and create a beautiful homepage using the built-in homepage layout.
+Template: melos
+Version: 1.0.9
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, dark, orange, red, blue, one-column, two-columns, three-columns, right-sidebar, left-sidebar, fixed-layout, responsive-layout, fluid-layout, custom-header, custom-menu, full-width-template, theme-options, threaded-comments, featured-images, post-formats, sticky-post, translation-ready, flexible-header, gray, light, white, custom-background, grid-layout, footer-widgets, blog, e-commerce, education, entertainment, news, photography, portfolio
+Text Domain: melos-business
+*/
+
+/* grid.css */
+.col-md-6,
+#sidebar
+{width: 50%;
+float: left
+;}
+ul.inline-list-2{display: flex;
+	margin: 0;    list-style: none;
+}
+
+ul.inline-list-2 li{
+	display: block;
+	list-style-type: none;
+	line-height: 3.3em;
+	font-size: 2em;
+	margin-left: 1em;
+
+}
+/* grid.css */
+
+
+/* Services */
+.services-builder.style1 {
+	text-align: center;
+	border-bottom: 3px solid #E2E2E2;
+	-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+}
+.services-builder.style1 .iconmain .iconurl {
+	margin-top: -5px;
+}
+ .iconurl a.themebutton {
+	display: inline-block;
+	color: #1EAAF1 !important;
+	background: none;
+	padding: 0;
+	margin-bottom: 5px;
+	font-size: 1.8em;
+}
+
+.services-builder.style1 .iconmain .iconurl a:hover {
+	color: #333 !important;
+}
+
+/* Pre Header */
+
+#section-home-inner .one_third {
+	width: 23%;
+}
+
+.services-builder.style1 .iconimage img {
+	border-radius: 111px;
+}
+
+
+/* Header */
+
+
+.brand{ background-color: #eb1a2f;
+	padding: 15px 0px 18px 7px;
+	position: relative;
+	color: #fff; width: 277px;
+	display: flex;
+	margin-left: 45px;
+}
+
+
+.brand a h1{color: #fff;    font-size: 3em;
+	width: 92%;
+	line-height: 1em;
+}
+.brand img{width: 72px;
+	height: 58px;
+	margin-top: 9px;
+}
+
+/* Intro */
+#intro #intro-core {
+	position: relative;
+	text-align: left;
+}
+#intro .page-title,
+#intro #breadcrumbs {
+	display: inline-block;
+}
+#intro .page-title {
+	padding: 0;
+	margin-left: 20px;
+}
+#intro .page-title:after {
+	bottom: -1px;
+	left: -20px;
+	right: auto;
+	height: 100%;
+	width: 0;
+	border-left: 3px solid #1EAAF1;
+}
+#intro #breadcrumbs {
+	position: absolute;
+	right: 0;
+	top: 30%;
+}
+
+
+
+
+
+
+
+
+
+/* <!--採用情報のイケメン背景--> */
+.bg-image-saiyo{
+	background-image: url(images/top_sriderimg01.jpg);
+	background-size: 120%;
+	background-repeat: no-repeat;
+	margin-top: 60px;
+	background-position: -120px -100px;
+}
+.bg-image-saiyo .container{
+	display: flex;
+	color: rgba(255, 255, 255, 0.9);
+	flex-wrap: wrap;
+	padding: 20px 40px 93px;
+	box-sizing: border-box;
+}
+.bg-image-saiyo .container h3{	
+	color: rgba(255, 255, 255, 0.9);
+	font-size: 3.4em;
+	margin-bottom: 5px;
+}
+	.bg-image-saiyo .container h3 i{
+		font-size: 0.7em;
+		margin-right: 12px;
+		}
+.bg-image-saiyo .container p{	
+	font-size: 1.3em;
+    font-family: Console;
+}
+.bg-image-saiyo .block{
+	width: 50%;
+  box-sizing: border-box
+}
+.bg-image-saiyo .left_top
+,.bg-image-saiyo .right_top
+{
+	padding-top: 65px;
+	position: relative;
+}
+.bg-image-saiyo .left_bottom
+,.bg-image-saiyo .right_bottom
+{
+}
+.bg-image-saiyo .left_bottom
+,.bg-image-saiyo .left_top
+{
+	padding-left: 75px;
+	border-right: solid 1px rgba(255,255,255,.2);
+	width: 33%;
+}
+
+.bg-image-saiyo .right_top
+,.bg-image-saiyo .right_bottom
+{
+	width: 67%;
+	padding-left: 80px;
+}
+.bg-image-saiyo hr{
+	width: 230px;
+	position: absolute;
+	left: 74px;
+	top: 198px;
+	background-color: rgba(255,255,255,0.2);
+}
+.bg-image-saiyo .left_top hr:nth-of-type(2)
+,.bg-image-saiyo .right_top hr:nth-of-type(2)
+{
+	left: 104px;top: 218px;
+}
+.bg-image-saiyo button{
+	position: absolute;
+	left: 444px;
+	top: 206px;
+}
+
+/* <!--採用情報のイケメン背景--> */
+
+
+/* Blog */
+.blog-thumb .image-overlay {
+	display: none;	
+}
+.blog-style1-layout1 .blog-article .entry-meta {
+    margin-top: -10px;
+    margin-bottom: 20px;
+    padding: 5px 0;
+    border-bottom: 1px solid #E2E2E2;
+	-webkit-box-shadow: 25px -1px 0px 0px #fff, -25px -1px 0px 0px #fff, 25px 0px 0px 0px #E2E2E2, -25px 0px 0px 0px #E2E2E2;
+	-moz-box-shadow: 25px -1px 0px 0px #fff, -25px -1px 0px 0px #fff, 25px 0px 0px 0px #E2E2E2, -25px 0px 0px 0px #E2E2E2;
+	-ms-box-shadow: 25px -1px 0px 0px #fff, -25px -1px 0px 0px #fff, 25px 0px 0px 0px #E2E2E2, -25px 0px 0px 0px #E2E2E2;
+	-o-box-shadow: 25px -1px 0px 0px #fff, -25px -1px 0px 0px #fff, 25px 0px 0px 0px #E2E2E2, -25px 0px 0px 0px #E2E2E2;
+	box-shadow: 25px -1px 0px 0px #fff, -25px -1px 0px 0px #fff, 25px 0px 0px 0px #E2E2E2, -25px 0px 0px 0px #E2E2E2;
+}
+
+/* Post Navigation */
+.nav-previous a,
+.nav-next a {
+	color: #fff;
+	background: #1EAAF1;
+}
+.nav-previous a:hover,
+.nav-next a:hover {
+	color: #fff;
+	background: #333;
+}
+
+/* Social Sharing */
+#sharepost {
+	padding: 15px 20px;
+}
+#shareicons a,
+#shareicons i {
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+}
+#shareicons a {
+	margin-right: 7px;
+	background: #d2d2d2;
+}
+#shareicons a:hover {
+	opacity: 0.8 !important;
+}
+#shareicons a.facebook {
+    background: #3b5997;
+}
+#shareicons a.twitter {
+	background: #a5dee8;
+}
+#shareicons a.google-plus {
+	background: #db4a39;
+}
+#shareicons a.instagram {
+	background: #AC8263;
+}
+#shareicons a.tumblr {
+	background: #395672;
+}
+#shareicons a.linkedin {
+	background: #56a1c4;
+}
+#shareicons a.flickr {
+	background: #c5c5c5;
+}
+#shareicons a.pinterest {
+	background: #C92228;
+}
+#shareicons a.xing {
+	background: #126567;
+}
+#shareicons a.paypal {
+	background: #1e477a;
+}
+#shareicons a.youtube {
+	background: #de1f26;
+}
+#shareicons a.vimeo-square {
+	background: #4EBBFF;
+}
+#shareicons a.rss {
+	background: #fea81d;
+}
+
+/* Posts & Pages */
+
+/* Pagination */
+.pag {
+	text-align: left;
+	background: none;
+}
+.pag li a,
+.pag li span {
+	border: none;
+	margin-left: 3px;
+}
+.pag li:first-child a,
+.pag li:first-child span {
+	margin-left: 0;
+}
+.pag li a {
+	background: #fff;
+}
+
+/* Sidebars */
+#sidebar .widget {
+}
+#sidebar h3.widget-title {
+	text-transform: none;
+}
+
+/* Default Widget - Tag Cloud */
+.widget_tag_cloud a {
+	font-size: 12px !important;
+	color: inherit;
+	background: none;
+	border: 1px solid #e2e2e2;
+	padding: 3px 8px !important;
+	margin: 3px 1px !important;
+	border-radius: 0;
+}
+.widget_tag_cloud a:hover {
+	background: none;
+	border-color: #1EAAF1;
+}
+#footer .widget_tag_cloud a {
+	font-size: 13px !important;
+	color: #fff;
+	background: none;
+	border: 1px solid #ddd;
+}
+#footer .widget_tag_cloud a:hover {
+	color: #fff;
+	background: #1EAAF1;
+	border-color: #1EAAF1;
+}
+
+
+.well-5 {
+	padding: 30px 0;
+}
+.bg-primary {
+	background-color: #48c0db;
+}
+
+#menu-header-1 a:hover {
+	opacity: .8;
+	color: #fff;
+}
+#menu-header-1 a {
+	color: #fff;
+	font-size: 1.4em;
+}
+#menu-header-1 a{
+	display: inline-block;
+	transition: .5s;
+	opacity: 1;
+}
+#footer-menu {
+	text-align: center;
+	margin: 0 40px;
+}
+#footer-menu li {
+	padding: 0 20px;
+}
+.text-center {
+	text-align: center;
+}
+.bg-image-2 {
+	background-image: url(./images/footer.jpg);
+	background-color: #333; padding-bottom: 130px;
+}
+.bg-image {
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.text-center {
+	text-align: center;
+}
+.inline-list-4 {
+	word-spacing: 19px; padding-top: 38px;
+}
+.inline-list-4>li {
+	display: inline-block;
+	word-spacing: normal;
+}
+	.icon-lg.icon-primary {
+    color: #fff;
+    background-color: #48c0db;
+}
+
+.icon-primary {
+    color: #48c0db;
+}
+.icon-lg {
+	font-size: 30px;
+	line-height: 74px;
+	height: 74px;
+	width: 74px;
+}
+.icon {
+	display: inline-block;
+	text-align: center;
+	border-radius: 50%;
+}
+.inline-list-4 [class*=fa-]:before {
+	font-size: 2em;line-height: 2.6em;
+}
+.contact-info *
+,p.privacy-policy *{
+		 color: #fff;
+}
+ .contact-info h5{
+	color: #fff;
+	font-size: 2em;    margin-bottom: 0;
+ }
+ .contact-info dl{
+	display: flex;
+	width: 46%;
+	margin: 0 auto 23px;
+ }
+ .contact-info dd{
+	 margin-left: 0;
+ }
+ .contact-info dd *{
+
+ }
+ .contact-info dt:not(:nth-of-type(1)){
+	 margin-left: 50px;
+ }
+
+ p.privacy-policy {margin-bottom: 0;
+    color: #eb1a2f;
+}
+/* Footer */
+
+@media (min-width: 768px){
+.container {
+    width: 750px;
+}
+}
+
+header nav {
+    font-size: 11px;
+}
+
+#menu-nav>li>a {
+    color: #b0b0b0;
+    font-weight: 700;
+    padding: 25px 36px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*slider post*/
+
+.slick-slide .entry-content 
+{ margin-right: 43px;
+	border: solid 3px #999;
+	overflow: hidden;
+}
+.slick-slide .entry-content h2{
+	text-align: center;
+}
+
+.slick-slide .entry-content a{
+	color: #888;
+	font-size: 0.8em;
+	white-space: pre;
+}
+.slick-slide .blog-thumb {
+	height: 177px;
+ }
+
+ button.slick-next {
+	display: inline-block;
+	background: none;
+	width: 120px;
+	position: absolute;
+	right: -33px;
+	top: 44px;
+	overflow: hidden;
+ }
+
+.inline-list li{
+	margin: 0 22px;
+}
+ .icon-secondary {
+	color: #eb1a2f;
+}
+
+.icon-xs {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.icon {
+	display: inline-block;
+	text-align: center;
+	border-radius: 50%;
+}
+
+
+
+
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+
+	/* Intro */
+	#intro #intro-core {
+		text-align: center;
+		margin: 0 !important;
+	}
+	#intro .page-title,
+	#intro #breadcrumbs {
+		display: block;
+	}
+	#intro .page-title {
+		margin-left: 0;
+	}
+	#intro .page-title:after {
+		display: none;
+	}
+	#intro #breadcrumbs {
+		position: relative;
+		margin-bottom: 15px;
+	}
+	#intro #breadcrumbs:after {
+		content: "";
+		margin: auto;
+		bottom: -10px;
+		left: 0;
+		right: 0;
+		width: 100px;
+		position: absolute;
+		border-left: none !important;
+		border-bottom: 1px solid #1EAAF1;
+	}
+}
+
+#slider .rslides, #slider .rslides li { height: 1500px; max-height: 1500px; }
+#slider .rslides img { height: 100%; max-height: 1500px; }
+
+#menu-nav.menu {display: inline-block;
+				list-style: none;}
+
+.menu>li {
+			position: relative;
+			float: left;
+			}
+
+.container {
+					margin-right: auto;
+					margin-left: auto;
+					padding-left: 15px;
+					padding-right: 15px;
+					min-width: 300px;
+}
+
+header		{
+background-color: #333;
+    color: #fff;
+}
